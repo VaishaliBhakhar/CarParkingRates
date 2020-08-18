@@ -1,11 +1,6 @@
 
 import moment from 'moment';
 
-
-export enum RateName {
-    EarlyBird, NightRate, WeekendRate
-}
-
 export type ResponseRateDetail = {
     name: string;
     totalPrice: number;
